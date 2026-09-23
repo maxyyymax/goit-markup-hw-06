@@ -19,12 +19,17 @@ a {
 button {
   cursor: pointer;
 }
-.container {
-  max-width: 1158px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+
+.hide {
+  display: none;
 }
+
+.container {
+  min-width: 320px;
+  padding: 16px;
+  margin: 0 auto;
+}
+
 .h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
