@@ -39,15 +39,33 @@
 
 .hero {
   display: flex;
-  padding: 188px 0;
+  padding: 72px 0;
   align-items: center;
   justify-content: center;
 }
 
+@media only screen and (min-width: 1158) {
+  .hero {
+    padding: 120px 0;
+  }
+}
+
 .hero-title {
   max-width: 496px;
-  margin-bottom: 48px;
+  margin-bottom: 72px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
   text-align: center;
+  color: #fff;
+}
+
+@media only screen and (min-width: 768) {
+  .hero-title {
+    font-size: 56px;
+    line-height: 107%;
+  }
 }
 
 .hero-button {

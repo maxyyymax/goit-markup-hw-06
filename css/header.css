@@ -41,10 +41,23 @@
   list-style: none;
   display: flex;
   flex-direction: row;
-  gap: 40px;
+  gap: 24px;
   align-items: center;
   margin: 0;
   padding: 0;
+  margin-right: 20px;
+}
+
+@media only screen and (min-width: 1156px) {
+  .nav-list {
+    margin-right: 122px;
+  }
+}
+
+@media only screen and (min-width: 1156px) {
+  .nav-link {
+    gap: 24px;
+  }
 }
 
 .logo-span {
@@ -104,7 +117,7 @@
 .contacts-list {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 20px;
 }
 
 .header {
@@ -124,12 +137,4 @@
   height: 4px;
   border-radius: 2px;
   background-color: #404bbf;
-}
-
-.burger-btn {
-  display: flex;
-  margin-left: auto;
-  margin-right: 16px;
-  border: none;
-  cursor: pointer;
 }
