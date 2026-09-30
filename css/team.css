@@ -7,7 +7,7 @@
   line-height: 1.11111;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .team-title-name {
   text-align: center;
@@ -32,6 +32,17 @@
   flex-wrap: wrap;
   gap: 72px 24px;
   justify-content: center;
+  @media only screen and (min-width: 768px) {
+    gap: 72px 24px;
+    max-width: 552px;
+    margin: 0 auto;
+  }
+
+  @media only screen and (min-width: 1158px) {
+    gap: 24px;
+    max-width: none;
+    margin: 0;
+  }
 }
 
 .team-item {
@@ -40,15 +51,12 @@
   flex-wrap: wrap;
   @media only screen and (min-width: 768px) {
     width: calc((100% - 24px) / 2);
+    width: 264px;
   }
 
   @media only screen and (min-width: 1158px) {
     width: calc((100% - 24px * 3) / 4);
   }
-}
-
-.team-title {
-  margin-bottom: 72px;
 }
 
 .team {
