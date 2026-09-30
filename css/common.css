@@ -79,3 +79,8 @@ img {
     padding-right: 15px;
   }
 }
+
+
+.hidden {
+  display: none;
+}
