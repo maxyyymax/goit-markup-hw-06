@@ -30,7 +30,7 @@
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 64px 24px;
+  gap: 72px 24px;
   justify-content: center;
 }
 
@@ -39,7 +39,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   @media only screen and (min-width: 768px) {
-    width: calc((100% - 72px) / 2);
+    width: calc((100% - 24px) / 2);
   }
 
   @media only screen and (min-width: 1158px) {
@@ -52,8 +52,12 @@
 }
 
 .team {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  @media only screen and (min-width: 1158px) {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 }
 
 .team-card-content {
